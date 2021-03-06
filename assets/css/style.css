@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+#container{
+    width:600px;
+    height:400px;
+    background: gold;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.block{
+    background: tomato;
+    position:absolute;
+    width: 98px;
+    height: 28px;
+   
+}
+
+.paddle{
+    background: purple;
+    height: 10px;
+    width: 100px;
+    position: absolute;
+}
+.ball{
+    background: black;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius:50%;
+}
